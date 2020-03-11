@@ -1,0 +1,20 @@
+{
+    "name": "Netgear Router Information Changer",
+    "version": "1.0",
+    "description": "Change/Configure ip address names",
+    "page_action": {
+        "default_title": "Netgear Router Helper"
+    },
+    // "background": {
+    //     "scripts": ["background.js"],
+    //     "persistent": false
+    // },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2
+}
