@@ -33,12 +33,12 @@ if(window.frames[2].document.getElementsByTagName("H1")[0].innerHTML === "MAC Fi
 
     console.log(newButton);
 
-    var nigga = buttons[0].cloneNode(true);
-    nigga.onclick = function() {
-        alert("nigga");
+    var test = buttons[0].cloneNode(true);
+    test.onclick = function() {
+        alert("test");
     };
     buttonRow.appendChild(document.createTextNode(" "));
-    buttonRow.appendChild(nigga);
+    buttonRow.appendChild(test);
 
     // for(var i = 0; i < buttons.length; i++) {
     //     var tempButton = document.createElement("BUTTON");
