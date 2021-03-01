@@ -27,7 +27,7 @@ chrome.pageAction.onClicked.addListener(function(tab) {
     // chrome.tabs.executeScript({
     //     file: 'content.js'
     // });
-    alert("nigga");
+    alert("test");
 });
 
 
