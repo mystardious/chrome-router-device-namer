@@ -39,47 +39,6 @@ if(window.frames[2].document.getElementsByTagName("H1")[0].innerHTML === "MAC Fi
     };
     buttonRow.appendChild(document.createTextNode(" "));
     buttonRow.appendChild(test);
-
-    // for(var i = 0; i < buttons.length; i++) {
-    //     var tempButton = document.createElement("BUTTON");
-    //     tempButton.value = buttons[i].value;
-    //     tempButton.innerHTML = buttons[i].innerHTML;
-    //     tempButton.onclick = buttons[i].onclick;
-    //     buttonRow.removeChild(buttons[i]);
-    // }
-
-
-    // console.log(myButtons);
-    // buttonRow.appendChild(myButtons[0]);
-
-    // buttons.push(buttons[0]);
-
-    // for(var i = 0; i < buttons.length; i++) {
-    //     buttonRow.appendChild(buttonRow[i]);
-    // }
-
-
-    // List of my Devices
-    // var myDevices = [];
-
-    // for(var i = 2; i < tableRows.length; i++) {
-
-    //     // Get fields in record
-    //     var tableField = tableRows[i].getElementsByTagName("TD");
-
-    //     // Save Device name and address
-    //     var device = {deviceName:tableField[1].innerHTML, deviceAddress:tableField[3].innerHTML};
-
-    //     // tableField[1].onclick = function() {
-    //     //     alert("nigga nigga 123");
-    //     // }
-
-    //     // tableField[1].contentEditable = "true";
-
-    //     // Add device to list
-    //     myDevices.push(device);
-
-    // }
 }
 
 // console.log(myDevices);
